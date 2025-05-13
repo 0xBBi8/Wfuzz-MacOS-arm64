@@ -123,7 +123,7 @@ wfuzz -c -z file,~/SecLists/Discovery/Web-Content/common.txt --hc 404 "$URL"
 	•	✅ pip downgraded to avoid metadata errors
 	•	✅ PycURL compiled against OpenSSL
 	•	✅ Wfuzz runs without SSL warnings
-	•	✅ Works on macOS ARM64 or Intel
+	•	✅ Works on macOS ARM64
 
 ⸻
 
