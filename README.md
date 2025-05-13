@@ -129,7 +129,7 @@ wfuzz -c -z file,~/SecLists/Discovery/Web-Content/common.txt --hc 404 "$URL"
 
 
 📚 References
-	•	https://github.com/EdgeSecurityTeam/wfuzz
+	•	https://github.com/xmendez/wfuzz
 	•	https://github.com/pycurl/pycurl
 	•	https://brew.sh
 	•	https://github.com/pyenv/pyenv
