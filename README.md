@@ -1,5 +1,5 @@
 
-# ⚡️ Wfuzz + PycURL + OpenSSL on macOS (ARM64/Intel)
+# ⚡️ Wfuzz + PycURL + OpenSSL on macOS (ARM64)
 
 This project documents how to get **Wfuzz 3.1.0** working with **PycURL compiled against OpenSSL** on macOS — avoiding issues caused by the default **SecureTransport/LibreSSL** backend.
 
@@ -23,7 +23,7 @@ This guide fixes that by ensuring everything compiles **against OpenSSL** using 
 - [Homebrew](https://brew.sh)
 - [`pyenv`](https://github.com/pyenv/pyenv)
 - Python 3.10.x (via `pyenv`)
-- macOS (ARM64 or Intel)
+- macOS (ARM64)
 - `pip <= 23.3.2`
 
 ---
@@ -117,11 +117,6 @@ wfuzz -c -z file,~/SecLists/Discovery/Web-Content/common.txt --hc 404 "$URL"
 
 ⸻
 
-💡 Tips
-	•	You can use ~ or $HOME in wordlist paths — both work in Wfuzz.
-	•	If you’re using zsh, don’t forget to source ~/.zshrc after changes.
-
-⸻
 
 🧠 Summary
 	•	✅ Python isolated via pyenv
