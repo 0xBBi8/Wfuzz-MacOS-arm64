@@ -1,7 +1,3 @@
-Got it — here’s your complete and polished README.md file, ready to copy-paste into GitHub:
-
-⸻
-
 
 # ⚡️ Wfuzz + PycURL + OpenSSL on macOS (ARM64/Intel)
 
@@ -136,19 +132,6 @@ wfuzz -c -z file,~/SecLists/Discovery/Web-Content/common.txt --hc 404 "$URL"
 
 ⸻
 
-📸 Screenshot
-
-Target: https://cophe.se/FUZZ
-Total requests: 29999
-
-ID           Response   Word   Chars   Payload
-000000001:   403        20 W   199 Ch  "cgi-bin"
-000000015:   301        20 W   229 Ch  "css"
-000000009:   301        20 W   228 Ch  "js"
-...
-
-
-⸻
 
 📚 References
 	•	https://github.com/EdgeSecurityTeam/wfuzz
@@ -158,8 +141,3 @@ ID           Response   Word   Chars   Payload
 
 ⸻
 
-Made with 🧠 by [your-name-or-handle]
-
---- 
-
-Let me know if you want it saved to a file (`README.md`) or styled for dark mode preview on GitHub.
