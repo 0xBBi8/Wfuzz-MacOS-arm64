@@ -3,7 +3,7 @@
 
 This project documents how to get **Wfuzz 3.1.0** working with **PycURL compiled against OpenSSL** on macOS — avoiding issues caused by the default **SecureTransport/LibreSSL** backend.
 
-> ✅ Verified working on macOS + pyenv + Homebrew + Python 3.10.14
+> ✅ Verified working on macOS 15.4.1 (24E263) + pyenv + Homebrew + Python 3.10.14
 
 ---
 
